@@ -134,14 +134,14 @@ export default function TableUser() {
             onClick={() => setAddModal(true)}
             className="button-blue button-div"
           >
-            {<img src="/assets/images/img (7).png" />}New
+            {<img src="/src/assets/images/img (7).png" />}New
           </button>
           <div className="header-btn">
             <button onClick={darkModeFunc} className="button-div btn1">
-              {<img src="/assets/images/img (5).png" />}Light
+              {<img src="/src/assets/images/img (5).png" />}Light
             </button>
             <button onClick={darkModeFunc} className="button-div btn2">
-              Dark{<img src="/assets/images/img (4).png" />}
+              Dark{<img src="/src/assets/images/img (4).png" />}
             </button>
           </div>
         </div>
@@ -182,7 +182,7 @@ export default function TableUser() {
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Name, email, etc..."
             />
-            <img src="/assets/images/SearchFilled.png" alt="..." />
+            <img src="/src/assets/images/SearchFilled.png" alt="..." />
           </fieldset>
         </div>
       </nav>
@@ -192,23 +192,23 @@ export default function TableUser() {
             <tr>
               <th>
                 <div className="thead-th">
-                  {<img src="/assets/images/img (1).png" />} Name
+                  {<img src="/src/assets/images/img (1).png" />} Name
                 </div>
               </th>
               <th>
                 <div className="thead-th">
-                  {<img src="/assets/images/img (6).png" />}Город
+                  {<img src="/src/assets/images/img (6).png" />}Город
                 </div>
               </th>
               <th>
                 <div className="thead-th td-status">
-                  {<img src="/assets/images/img (9).png" />}Status
-                  {<img src="/assets/images/img (2).png" />}
+                  {<img src="/src/assets/images/img (9).png" />}Status
+                  {<img src="/src/assets/images/img (2).png" />}
                 </div>
               </th>
               <th>
                 <div className="thead-th">
-                  {<img src="/assets/images/img (8).png" />}Phone
+                  {<img src="/src/assets/images/img (8).png" />}Phone
                 </div>
               </th>
               <th>Actions</th>
@@ -263,26 +263,26 @@ export default function TableUser() {
                         onClick={() => setActionId(todo.id)}
                         className="btn-3Dots"
                       >
-                        <img src="/assets/images/img (3).png" alt="..." />
+                        <img src="/src/assets/images/img (3).png" alt="..." />
                       </button>
                     </td>
                     {actionId === todo.id && (
                       <div className="modal-button">
                         <button onClick={() => setInfoModal(true)}>
                           <div className="btn-div">
-                            <img src="/assets/images/img (11).png" alt="..." />
+                            <img src="/src/assets/images/img (11).png" alt="..." />
                             View profile
                           </div>
                         </button>
                         <button onClick={() => handleEdit(todo)}>
                           <div className="btn-div">
-                            <img src="/assets/images/img (13).png" alt="..." />
+                            <img src="/src/assets/images/img (13).png" alt="..." />
                             Edit
                           </div>
                         </button>
                         <button onClick={() => handleDelete(todo.id)}>
                           <div className="btn-div">
-                            <img src="/assets/images/img (12).png" alt="..." />
+                            <img src="/src/assets/images/img (12).png" alt="..." />
                             Delete
                           </div>
                         </button>
@@ -291,7 +291,7 @@ export default function TableUser() {
                           className="btn-div_cancel"
                         >
                           <div className="btn-div">
-                            <img src="/assets/images/img (10).png" alt="..." />
+                            <img src="/src/assets/images/img (10).png" alt="..." />
                           </div>
                         </button>
                       </div>
@@ -309,7 +309,7 @@ export default function TableUser() {
                             />
                           </button>
                           <h1>User info</h1>
-                        </div>
+   /src                     </div>
                         <div className="info-body">
                           <img
                             src={todo.image}
@@ -322,7 +322,7 @@ export default function TableUser() {
                             <div className="div-info">
                               <h4>
                                 <img
-                                  src="/assets/images/img (6).png"
+                                  src="/src/assets/images/img (6).png"
                                   alt="..."
                                 />
                                 City
@@ -332,7 +332,7 @@ export default function TableUser() {
                             <div className="div-info">
                               <h4>
                                 <img
-                                  src="/assets/images/img (9).png"
+                                  src="/src/assets/images/img (9).png"
                                   alt="..."
                                 />
                                 Status
@@ -348,7 +348,7 @@ export default function TableUser() {
                             <div className="div-info">
                               <h4>
                                 <img
-                                  src="/assets/images/img (8).png"
+                                  src="/src/assets/images/img (8).png"
                                   alt="..."
                                 />
                                 Phone
@@ -359,13 +359,13 @@ export default function TableUser() {
                           <div className="info-buttons">
                           <button className="button-blue" onClick={() => handleEdit(todo)}>
                           <div className="btn-div">
-                            <img src="/assets/images/Masked Icon (1).png" alt="..." />
+                            <img src="/src/assets/images/Masked Icon (1).png" alt="..." />
                             Edit
                           </div>
                         </button>
                         <button className="button-red" onClick={() => handleDelete(todo.id)}>
                           <div className="btn-div">
-                            <img src="/assets/images/img (12).png" alt="..." />
+                            <img src="/src/assets/images/img (12).png" alt="..." />
                             Delete
                           </div>
                         </button>
@@ -435,7 +435,7 @@ function Modal({
       >
         <h1>{title}</h1>
         <button type="button" className="button-cancel" onClick={close}>
-          <img src="/assets/images/img (10).png" alt="..." />
+          <img src="/src/assets/images/img (10).png" alt="..." />
         </button>
       </div>
       <form onSubmit={funcModal}>
