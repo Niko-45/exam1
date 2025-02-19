@@ -308,8 +308,7 @@ export default function TableUser() {
                               alt="Close"
                             />
                           </button>
-                          <h1>User info</h1>
-   /src                     </div>
+                          <h1>User info</h1>                    </div>
                         <div className="info-body">
                           <img
                             src={todo.image}
