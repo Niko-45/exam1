@@ -263,7 +263,7 @@ export default function TableUser() {
                         onClick={() => setActionId(todo.id)}
                         className="btn-3Dots"
                       >
-                        <img src="/assets/images/img (3).png" alt="" />
+                        <img src="/assets/images/img (3).png" alt="..." />
                       </button>
                     </td>
                     {actionId === todo.id && (
