@@ -1,0 +1,395 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+.btn-3Dots {
+  background-color: white;
+  border: none;
+}
+table {
+  width: 95%;
+  margin: auto;
+}
+.thead-th {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+thead {
+  background-color: #f8f9fd;
+  border: 1px solid gray;
+}
+thead tr th {
+  padding: 10px;
+}
+.td-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.td-status {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.true-action {
+  max-width: 70px;
+  background-color: #259323;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+}
+.false-action {
+  max-width: 70px;
+  background-color: #748998;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+}
+td {
+  border-bottom: #748998;
+  border-top: #748998;
+}
+.modal-button {
+  width: 160px;
+  padding: 10px;
+  position: absolute;
+  top: 40%;
+  right: 1%;
+  z-index: 2;
+  border: 1px solid #afc1ce;
+  box-shadow: 0px 0px 10px rgb(216, 212, 212);
+}
+.modal-button button {
+  background-color: white;
+  border: none;
+  display: block;
+}
+.btn-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  text-align: start;
+}
+.btn-div_cancel {
+  width: 60px;
+  margin: auto;
+  margin-top: 10px;
+}
+.Modal {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.Modal input,
+.Modal select {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  margin: 10px;
+  border: 1px solid #748998;
+  border-radius: 5px;
+}
+.button-blue {
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.button-red {
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid red;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.button-white {
+  color: #2196f3;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid #2196f3;
+  margin-left: 10px;
+}
+.button-cancel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+.button-div {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  border: none;
+  gap: 10px;
+  align-items: center;
+}
+.btn1 {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background-color: #0000001f;
+  color: #000000de;
+}
+.btn2 {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #00000014;
+  color: #00000099;
+}
+.header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+nav div {
+  display: flex;
+  gap: 10px;
+}
+
+select,
+input {
+  padding: 5px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+legend {
+  font-size: 12px;
+  color: #666;
+  padding: 0 5px;
+}
+select {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 160px;
+}
+
+select:focus {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+
+option {
+  background-color: white;
+  color: #333;
+  padding: 8px;
+  font-size: 14px;
+}
+input {
+  width: 200px;
+  padding-left: 30px;
+}
+.relative {
+  position: relative;
+}
+.relative span {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+}
+.info-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 400px;
+  background-color: white;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 24px;
+  text-align: center;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.info-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.info-details {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+.div-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action {
+  margin: 0;
+}
+.info-body h4 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.info-buttons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 4;
+}
+
+.Modal > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.Modal h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Modal input,
+.Modal select {
+  width: 90%;
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode table {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode thead {
+  background-color: #333;
+  border-color: #555;
+}
+
+.dark-mode td,
+.dark-mode th {
+  border-color: #555;
+}
+
+.dark-mode .button-blue {
+  background-color: #2196f3;
+  color: white;
+}
+
+.dark-mode .button-red {
+  background-color: white;
+  color: red;
+}
+
+.dark-mode .button-white {
+  background-color: #333;
+  color: #2196f3;
+  border-color: #2196f3;
+}
+
+.dark-mode .modal-button {
+  background-color: #222;
+  color: white;
+  box-shadow: 0px 0px 10px rgb(50, 50, 50);
+}
+
+.dark-mode .info-modal {
+  background-color: #1e1e1e;
+  color: white;
+  box-shadow: -2px 0 8px rgba(255, 255, 255, 0.1);
+}
+.dark-mode .btn1,
+.dark-mode .btn2 {
+  color: white;
+  border: 1px solid white;
+}
+.dark-mode nav,
+.dark-mode fieldset,
+.dark-mode select,
+.dark-mode input,
+.dark-mode .Modal,
+.dark-mode button {
+  background-color: #121212;
+  color: white;
+}
+.dark-mode .btn-div_cancel,.dark-mode .close-btn,.dark-mode .button-cancel  {
+  background-color: white;
+}
